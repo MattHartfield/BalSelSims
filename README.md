@@ -25,19 +25,19 @@ Where:
 - reps is how many times to introduce linked neutral allele
 
 Note that haplotypes are defined as:
-x1 = ab
-x2 = Ab
-x3 = aB
-x4 = AB
+x1 = ab;
+x2 = Ab;
+x3 = aB;
+x4 = AB;
 
 Genotypes defined as:
-g11 = g1 = ab/ab
-g12 = g2 = Ab/ab
-g13 = g3 = aB/ab
-g14 = g4 = AB/ab
-g22 = g5 = Ab/Ab
-g23 = g6 = Ab/aB
-g24 = g7 = Ab/AB
-g33 = g8 = aB/aB
-g34 = g9 = aB/AB
-g44 = g10 = AB/AB
+g11 = g1 = ab/ab;
+g12 = g2 = Ab/ab;
+g13 = g3 = aB/ab;
+g14 = g4 = AB/ab;
+g22 = g5 = Ab/Ab;
+g23 = g6 = Ab/aB;
+g24 = g7 = Ab/AB;
+g33 = g8 = aB/aB;
+g34 = g9 = aB/AB;
+g44 = g10 = AB/AB;
