@@ -4,7 +4,16 @@ Simulation of balancing selection simulation with sampling (finite population ef
 Selection; reproduction; mutation based on deterministic recursions, then sampling
 Repeats for 'Length' generations
 
-Run by executing:
+Simulation uses routines found with the GNU Scientific Library (GSL)
+(http://www.gnu.org/software/gsl/)
+Since GSL is distributed under the GNU General Public License 
+(http://www.gnu.org/copyleft/gpl.html), you must download it 
+separately from this file.
+
+This program can be compiled in e.g. GCC using a command like:
+gcc BalSelSims -lm -lgsl -lgslcblas -I/usr/local/include -L/usr/local/lib BalSelSims.c
+
+Then run by executing:
 ./BalSelSims N s rec sex self gc reps
 Where:
 - N is the population size
@@ -32,12 +41,6 @@ g24 = g7 = Ab/AB
 g33 = g8 = aB/aB
 g34 = g9 = aB/AB
 g44 = g10 = AB/AB
-
-Simulation uses routines found with the GNU Scientific Library (GSL)
-(http://www.gnu.org/software/gsl/)
-Since GSL is distributed under the GNU General Public License 
-(http://www.gnu.org/copyleft/gpl.html), you must download it 
-separately from this file.
 
 */
 
