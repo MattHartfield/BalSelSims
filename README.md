@@ -33,7 +33,7 @@ Note that haplotypes are defined as:
 x1 = ab;
 x2 = Ab;
 x3 = aB;
-x4 = AB;
+x4 = AB.
 
 Genotypes defined as:
 
@@ -46,4 +46,4 @@ g23 = g6 = Ab/aB;
 g24 = g7 = Ab/AB;
 g33 = g8 = aB/aB;
 g34 = g9 = aB/AB;
-g44 = g10 = AB/AB;
+g44 = g10 = AB/AB.
